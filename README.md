@@ -1,4 +1,4 @@
-**step 4:  **
+**step 4:**
 
 copy_script.sh;
 
@@ -16,9 +16,7 @@ java -Ddatasource.dialect=HSQLDB \
 
 
 
-  
-
-first docker file;
+  first docker file;
 
 
 FROM maven:3.6.3-openjdk-8
@@ -41,7 +39,13 @@ ENTRYPOINT ["/copy_script.sh"]
 
 
 
-
 docker run commands;
 
 docker run --rm -p 8080:8080 -v $(pwd)/target:/target lavagna-app
+
+**step6:**
+
+
+
+
+
