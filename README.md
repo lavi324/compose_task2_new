@@ -1,4 +1,7 @@
+**step 4:  **
+
 copy_script.sh;
+
 #!/bin/sh
 
 cp /app/target/*.war /target/ && echo "WAR files copied to /target in host"
